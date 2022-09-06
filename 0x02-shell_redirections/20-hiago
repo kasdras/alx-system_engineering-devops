@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -E 'c|C' | tr c -delete | tr C -delete
+grep -E 'c|C' | tr -d 'cC'
