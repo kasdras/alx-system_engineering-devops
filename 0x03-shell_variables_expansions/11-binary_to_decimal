@@ -1,2 +1,2 @@
 #!/bin/bash 
-echo $((10#$BINARY))
+Con=$((2#$BINARY)) | echo $((10#$Con))
