@@ -1,2 +1,2 @@
 #!/bin/bash 
-printf $BINARY=%d\n $((2#BINARY))
+DECIMAL=$((10#$BINARY))
