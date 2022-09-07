@@ -1,2 +1,2 @@
 #!/bin/bash 
-Con=$((2#$BINARY)) | echo $((10#$Con))
+printf $BINARY=%d\n $((2#BINARY))
